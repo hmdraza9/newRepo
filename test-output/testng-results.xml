@@ -1,61 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2020-07-05T08:51:44Z" name="Suite" finished-at="2020-07-05T08:52:05Z" duration-ms="21202">
+  <suite started-at="2023-07-15T02:40:41Z" name="Default suite" finished-at="2023-07-15T02:40:41Z" duration-ms="30">
     <groups>
     </groups>
-    <test started-at="2020-07-05T08:51:44Z" name="urlValidation" finished-at="2020-07-05T08:51:44Z" duration-ms="20">
+    <test started-at="2023-07-15T02:40:41Z" name="Default test" finished-at="2023-07-15T02:40:41Z" duration-ms="30">
       <class name="SeleniumTestSuit.NewSeleniumTest.titleValidationTest">
-        <test-method signature="helloDear()[pri:0, instance:SeleniumTestSuit.NewSeleniumTest.titleValidationTest@3cebbb30]" started-at="2020-07-05T14:21:44Z" name="helloDear" finished-at="2020-07-05T14:21:44Z" duration-ms="7" status="PASS">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:SeleniumTestSuit.NewSeleniumTest.titleValidationTest@20435c40]" started-at="2023-07-15T08:10:41Z" name="setUp" finished-at="2023-07-15T08:10:41Z" duration-ms="8" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method signature="helloDear()[pri:0, instance:SeleniumTestSuit.NewSeleniumTest.titleValidationTest@20435c40]" started-at="2023-07-15T08:10:41Z" name="helloDear" finished-at="2023-07-15T08:10:41Z" duration-ms="5" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- helloDear -->
       </class> <!-- SeleniumTestSuit.NewSeleniumTest.titleValidationTest -->
-    </test> <!-- urlValidation -->
-    <test started-at="2020-07-05T08:51:44Z" name="titleValidation" finished-at="2020-07-05T08:52:05Z" duration-ms="21142">
-      <class name="SeleniumTestSuit.NewSeleniumTest.urlTest">
-        <test-method is-config="true" signature="browserConfig()[pri:0, instance:SeleniumTestSuit.NewSeleniumTest.urlTest@6221a451]" started-at="2020-07-05T14:21:44Z" name="browserConfig" finished-at="2020-07-05T14:21:51Z" duration-ms="7486" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserConfig -->
-        <test-method is-config="true" signature="classStarts()[pri:0, instance:SeleniumTestSuit.NewSeleniumTest.urlTest@6221a451]" started-at="2020-07-05T14:21:51Z" name="classStarts" finished-at="2020-07-05T14:21:51Z" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classStarts -->
-        <test-method signature="ToolsQA()[pri:0, instance:SeleniumTestSuit.NewSeleniumTest.urlTest@6221a451]" started-at="2020-07-05T14:21:51Z" name="ToolsQA" finished-at="2020-07-05T14:21:57Z" duration-ms="5808" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- ToolsQA -->
-        <test-method signature="Yahoo()[pri:0, instance:SeleniumTestSuit.NewSeleniumTest.urlTest@6221a451]" started-at="2020-07-05T14:21:57Z" name="Yahoo" finished-at="2020-07-05T14:21:59Z" duration-ms="1696" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Yahoo -->
-        <test-method signature="google()[pri:0, instance:SeleniumTestSuit.NewSeleniumTest.urlTest@6221a451]" started-at="2020-07-05T14:21:59Z" name="google" finished-at="2020-07-05T14:22:00Z" duration-ms="1082" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- google -->
-        <test-method signature="guru99()[pri:0, instance:SeleniumTestSuit.NewSeleniumTest.urlTest@6221a451]" started-at="2020-07-05T14:22:00Z" name="guru99" finished-at="2020-07-05T14:22:03Z" duration-ms="2941" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- guru99 -->
-        <test-method signature="inCom()[pri:0, instance:SeleniumTestSuit.NewSeleniumTest.urlTest@6221a451]" started-at="2020-07-05T14:22:03Z" name="inCom" finished-at="2020-07-05T14:22:04Z" duration-ms="1436" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- inCom -->
-        <test-method signature="methodHellowWord()[pri:0, instance:SeleniumTestSuit.NewSeleniumTest.urlTest@6221a451]" started-at="2020-07-05T14:22:04Z" name="methodHellowWord" finished-at="2020-07-05T14:22:04Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- methodHellowWord -->
-        <test-method is-config="true" signature="classEnds()[pri:0, instance:SeleniumTestSuit.NewSeleniumTest.urlTest@6221a451]" started-at="2020-07-05T14:22:04Z" name="classEnds" finished-at="2020-07-05T14:22:04Z" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- classEnds -->
-        <test-method is-config="true" signature="browserRelease()[pri:0, instance:SeleniumTestSuit.NewSeleniumTest.urlTest@6221a451]" started-at="2020-07-05T14:22:04Z" name="browserRelease" finished-at="2020-07-05T14:22:05Z" duration-ms="683" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserRelease -->
-      </class> <!-- SeleniumTestSuit.NewSeleniumTest.urlTest -->
-    </test> <!-- titleValidation -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
